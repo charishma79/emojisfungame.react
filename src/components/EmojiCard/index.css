@@ -1,0 +1,35 @@
+/* Write your code here. */
+.emojis-cards {
+  display: flex;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  border: 1px solid #ffffff30;
+  padding: 15px;
+  height: 160px;
+  width: 160px;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fun-emoji {
+  height: 80px;
+}
+
+.btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .emojis-cards {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+  .fun-emoji {
+    height: 60px;
+  }
+}

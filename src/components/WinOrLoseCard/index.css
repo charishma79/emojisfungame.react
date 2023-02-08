@@ -1,0 +1,83 @@
+/* Write your code here. */
+.main-score-card-container {
+  display: flex;
+  justify-content: center;
+}
+.score-card-bg-container {
+  background-color: #ffffff33;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  min-height: 400px;
+  width: 600px;
+  border: 1px solid #ffffff30;
+}
+
+.result-logo {
+  height: 350px;
+}
+
+.score-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.best-score {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.marks {
+  color: #6a59ff;
+  font-size: 40px;
+  margin-top: 0px;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.play-btn {
+  border-radius: 12px;
+  height: 30px;
+  width: 90px;
+  padding: 5px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border-width: 0px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .score-card-bg-container {
+    flex-direction: column;
+  }
+  .score-details-container {
+    order: 2;
+  }
+  .result-logo {
+    height: 250px;
+  }
+  .score-card-bg-container {
+    min-height: 300px;
+    width: 350px;
+    padding: 20px;
+  }
+  .play-btn {
+    margin-bottom: 25px;
+  }
+}

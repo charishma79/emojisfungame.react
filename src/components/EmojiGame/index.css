@@ -1,0 +1,29 @@
+/* Write your code here. */
+.emoji-bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #6a59ff, #fbc7d4);
+  width: 100vw;
+}
+
+.emojis-container {
+  padding-left: 250px;
+  padding-bottom: 250px;
+  padding-top: 100px;
+  padding-right: 250px;
+}
+
+.emojis-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .emojis-container {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 60px;
+  }
+}
